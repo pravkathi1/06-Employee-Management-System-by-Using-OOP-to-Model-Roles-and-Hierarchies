@@ -21,15 +21,9 @@ class Manager extends Employee {
 }
 
 const mgr = new Manager("Pravallika Kathi", "Sales", 8);
-const mgr2 = new Employee("Brian Davis", "Human Resources");
-const mgr3 = new Employee("Carla Joseph", "IT");
-const mgr4 = new Employee("David Angel", "Operations");
 
 const emp1 = new Employee("Sophia Brown", "Finance");
-const emp2 = new Employee("Michael Carter", "IT");
-const emp3 = new Employee("Emma Davis", "Marketing");
-const emp4 = new Employee("James Wilson", "Human Resources");
-
+const emp2 = new Employee("Michael Carter", "Sales");
 class Company {
   constructor() {
     this.employees = []; 
@@ -50,13 +44,8 @@ const company = new Company();
 
 
 company.addEmployee(mgr);
-company.addEmployee(mgr2);
-company.addEmployee(mgr3);
-company.addEmployee(mgr4);
 
 company.addEmployee(emp1);
 company.addEmployee(emp2);
-company.addEmployee(emp3);
-company.addEmployee(emp4);
 
 company.listEmployees();
