@@ -47,3 +47,18 @@ class Company {
     });
   }
 }
+
+const company = new Company();
+
+
+company.addEmployee(mgr);
+company.addEmployee(mgr2);
+company.addEmployee(mgr3);
+company.addEmployee(mgr4);
+
+company.addEmployee(emp1);
+company.addEmployee(emp2);
+company.addEmployee(emp3);
+company.addEmployee(emp4);
+
+company.listEmployees();
